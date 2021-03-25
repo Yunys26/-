@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Тестирование компоненты App SnapShots component App 1`] = `
+<div
+  className="container"
+>
+  <header>
+    <div
+      className="title"
+    >
+      <h1>
+        Введите элементы массива
+      </h1>
+    </div>
+  </header>
+  <main>
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        className="main__input"
+        onChange={[Function]}
+        placeholder="Введите элементы"
+        style={null}
+        type="text"
+        value=""
+      />
+      <button
+        className="main__button btn btn1"
+        type="submit"
+      >
+        Получить результат
+      </button>
+    </form>
+  </main>
+  <footer>
+    <div
+      className="footer-text__error"
+    >
+      <p />
+    </div>
+  </footer>
+</div>
+`;
