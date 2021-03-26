@@ -10,7 +10,7 @@ const addNewArrNum = (str) => {
 // Возвращает массив
 const numSeven = (arr) => {
     const newArr = arr.filter((el) => el % 7 === 0);
-    console.log(newArr)
+    
     return newArr;
 }
 // Возвращает boolean

@@ -21,7 +21,11 @@ exports[`Тестирование компоненты App SnapShots component A
         className="main__input"
         onChange={[Function]}
         placeholder="Введите элементы"
-        style={null}
+        style={
+          Object {
+            "border": "2px solid red",
+          }
+        }
         type="text"
         value=""
       />
@@ -37,7 +41,9 @@ exports[`Тестирование компоненты App SnapShots component A
     <div
       className="footer-text__error"
     >
-      <p />
+      <p>
+        Вы ничего не ввели
+      </p>
     </div>
   </footer>
 </div>

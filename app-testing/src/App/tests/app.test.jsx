@@ -34,6 +34,14 @@ describe('Тестирование компоненты App', () => {
         expect(component.find('form')).toHaveLength(1);
     });
 
+    it('Симуляция нажатия на кнопку', () => {
+        const form = component.find('form');
+        form.simulate('submit', {
+            preventDefault: jest.fn()
+        })
+        expect(form).toHaveLength(1);
+    }); 
+
     it('Присутсвует ли тэг input', () => {
         expect(component.find('input')).toHaveLength(1);
     });
